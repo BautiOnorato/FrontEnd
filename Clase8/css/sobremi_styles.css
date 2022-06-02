@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'CaviarDreams_Bold';
+    src: url(../fonts/CaviarDreams_Bold.ttf);
+}
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url(../fonts/CaviarDreams.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +27,7 @@ header a {
     text-decoration: none;
     color:rgb(19, 44, 155);
     font-weight: 1000;
+    font-family: 'CaviarDreams_Bold', Arial, Helvetica, sans-serif;
 } 
 
 header a:hover {
@@ -49,10 +60,12 @@ section h1 {
     font-size: 36px;
     padding: 20px;
     color:rgb(19, 44, 155);
+    font-family: 'CaviarDreams_Bold', Arial, Helvetica, sans-serif;
 }
 
 section p {
     font-size: 24px;
     padding: 0 20px 20px;
     line-height: 50px;
+    font-family: 'CaviarDreams', Arial, Helvetica, sans-serif;
 }

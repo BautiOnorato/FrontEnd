@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header p {
+    background-color: #1CD1B0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.titulo {
+    background-color: #00669F;
+    padding: 28px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+.titulo h1 {
+    font-size: 40px;
+}
+
+.perfiles {
+    text-align: center;
+}
+
+.perfiles article {
+    display: inline-block;
+    width: 20%;
+    background-color: #F3F3F3;
+    margin: 155px 30px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+.perfiles article .arriba {
+    position: relative;
+}
+
+.perfiles article .arriba img {
+   width: 100%;
+}
+
+.perfiles article .arriba i {
+    position: absolute;
+    right: 370px;
+    top: 20px;
+    color: #CC2424;
+    font-size: 30px;
+}
+
+.perfiles article .abajo {
+    position: relative;
+}
+
+
+.perfiles article .abajo img {
+    position: absolute;
+    bottom: 400px;
+    right: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);;
+}
+
+.perfiles article .abajo h3 {
+    text-align: center;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+    font-weight: 500;   
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+.perfiles article .abajo p {
+    text-align: left;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+    font-weight: 300;   
+    font-size: 22px;
+    padding: 16px 16px;
+    margin: 10px;
+}
+
+.perfiles article .abajo button {
+    padding: 15px 40px;
+    background-color: #00669F;
+    margin: 20px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+    font-weight: 300;   
+    font-size: 20px;
+    color: #F3F3F3;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 16px;
+    color: #FFF9F9;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif; 
+}
